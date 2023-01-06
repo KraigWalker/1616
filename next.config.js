@@ -4,7 +4,8 @@ const nextConfig = {
     runtime: 'experimental-edge',
   },
   reactStrictMode: true,
-  swcMinify: true
+  swcMinify: true,
+  poweredByHeader: false
 }
 
 module.exports = nextConfig
