@@ -5,6 +5,9 @@ export default function Document() {
     <Html lang="en">
       <Head />
       <body>
+        <div className={"skip-link"}>
+          <a href="#main">Skip to content</a>
+        </div>
         <Main />
         <NextScript />
       </body>
