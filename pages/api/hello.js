@@ -5,7 +5,7 @@ export const config = {
 };
 
 export default function handler(req, res) {
-  return new Respinse(JSON.stringify({ name: 'Kraig Walker' }), {
+  return new Response(JSON.stringify({ name: 'Kraig Walker' }), {
     status: 200,
     headers: {
       'Content-Type': 'application/json'
