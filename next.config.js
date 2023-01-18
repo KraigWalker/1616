@@ -11,7 +11,7 @@ const nextConfig = {
       {
         source: '/sitemap.xml',
         destination: 'https://1616.run/api/sitemap',
-      },
+      }
     ]
   },
 }
