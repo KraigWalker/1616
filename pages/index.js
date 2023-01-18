@@ -14,10 +14,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <div className="nav-container">
       <nav aria-labelledby='nav-label'>
-        <h2 id="nav-label">Site</h2>
+        <h2 id="nav-label" className="vh">Site</h2>
         <div>
-          <Link href="/"><span>16:16 home page</span></Link>
+          <Link href="/"><span className="vh">16:16 home page</span></Link>
         </div>
         <ul>
           <li><a>About</a></li>
@@ -26,7 +27,8 @@ export default function Home() {
           <li><a>Subscribe</a></li>
           {/** @todo add space for a serviceworker installed status indicator, and notification counter */}
         </ul>
-      </nav>
+        </nav>
+        </div>
       <main className={styles.main}>
         
       </main>

@@ -1,3 +1,13 @@
+main {
+  backface-visibility: hidden;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  
+
+}
+
 .main {
   display: flex;
   flex-direction: column;
