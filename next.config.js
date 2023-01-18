@@ -10,7 +10,7 @@ const nextConfig = {
     return [
       {
         source: '/sitemap.xml',
-        destination: '/api/sitemap',
+        destination: 'https://1616.run/api/sitemap',
       },
     ]
   },

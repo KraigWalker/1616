@@ -1,5 +1,5 @@
 export const config = {
-  runtime: 'experimental-edge',
+  runtime: 'edge',
 };
 
 
@@ -17,8 +17,8 @@ export default function handler(req, res) {
   return new Response(xml, {
     status: 200,
     headers: {
-      'Content-Type': 'text/xml',
-      'Cache-Control': 'stale-while-revalidate, s-maxage=3600'
+      'content-type': 'text/xml',
+      'cache-control': 'stale-while-revalidate, s-maxage=3600'
     }
   })
 }
