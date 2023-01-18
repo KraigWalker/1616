@@ -5,7 +5,15 @@ const nextConfig = {
   },
   reactStrictMode: true,
   swcMinify: true,
-  poweredByHeader: false
+  poweredByHeader: false,
+  async rewrites() {
+    return [
+      {
+        source: '/sitemap.xml',
+        destination: '/api/sitemap',
+      },
+    ]
+  },
 }
 
 module.exports = nextConfig
