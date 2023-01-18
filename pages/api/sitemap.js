@@ -1,10 +1,9 @@
-export default function handler(req, res) {
+export const config = {
+  runtime: 'experimental-edge',
+};
 
-  res.statusCode = 200
-  res.setHeader('Content-Type', 'text/xml')
-    
-    // Instructing the Vercel edge to cache the file
-    res.setHeader('Cache-control', 'stale-while-revalidate, s-maxage=3600')
+
+export default function handler(req, res) {
     
     // generate sitemap here
     const xml = `<?xml version="1.0" encoding="UTF-8"?>
@@ -15,5 +14,11 @@ export default function handler(req, res) {
     </urlset>
   `;
 
-  res.end(xml)
+  return new Response(xml, {
+    status: 200,
+    headers: {
+      'Content-Type': 'text/xml',
+      'Cache-Control': 'stale-while-revalidate, s-maxage=3600'
+    }
+  })
 }
