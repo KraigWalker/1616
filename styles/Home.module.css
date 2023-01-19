@@ -44,6 +44,15 @@ main {
   border-radius: var(--border-radius);
 }
 
+.vh {
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 .code {
   font-weight: 700;
   font-family: var(--font-mono);

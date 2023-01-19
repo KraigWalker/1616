@@ -16,9 +16,9 @@ export default function Home() {
       </Head>
       <div className="nav-container">
       <nav aria-labelledby='nav-label'>
-        <h2 id="nav-label" className="vh">Site</h2>
+          <h2 id="nav-label" className={styles.vh}>Site</h2>
         <div>
-          <Link href="/"><span className="vh">16:16 home page</span></Link>
+          <Link href="/"><span className={styles.vh}>16:16 home page</span></Link>
         </div>
         <ul>
           <li><a>About</a></li>
