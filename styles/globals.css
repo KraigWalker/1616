@@ -87,12 +87,7 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #fff;
 }
 
 a {
@@ -118,7 +113,7 @@ a {
   line-height: 1.5;
 }
 
-.vh {
+.vh, .skip-link {
   clip-path: inset(50%);
   height: 1px;
   overflow: hidden;
