@@ -108,6 +108,10 @@
   width: 1px;
 }
 
+/*
+ * @todo Use flexbox and give the calendar all the middle space between the header and the footer
+ * instead of using calc
+ */
 .calendar {
   width: 100%;
   overflow: hidden;
