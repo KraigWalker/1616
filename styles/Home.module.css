@@ -1,3 +1,7 @@
+/**
+ * @todo 1024px is the breakpoint for mobile layout
+ */
+
 .header {
   display: flex;
   flex-wrap: nowrap;
