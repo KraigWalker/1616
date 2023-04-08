@@ -86,3 +86,6 @@ lib-shim
 dist
 *.scss.ts
 *.sass.ts
+
+# Snyk temporary files
+.dccache
