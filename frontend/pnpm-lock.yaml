@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   modern-normalize:
     specifier: ^1.1.0
@@ -23,7 +27,7 @@ devDependencies:
     version: 18.15.11
   '@types/node-fetch':
     specifier: latest
-    version: 2.6.3
+    version: 2.6.4
   '@typescript-eslint/eslint-plugin':
     specifier: 5.46.1
     version: 5.46.1(@typescript-eslint/parser@5.46.1)(eslint@8.37.0)(typescript@5.0.3)
@@ -73,11 +77,11 @@ devDependencies:
     specifier: 5.19.1
     version: 5.19.1
   vite:
-    specifier: 4.0.1
-    version: 4.0.1(@types/node@18.15.11)(sass@1.61.0)
+    specifier: 4.0.5
+    version: 4.0.5(@types/node@18.15.11)(sass@1.61.0)
   vite-tsconfig-paths:
     specifier: 3.5.0
-    version: 3.5.0(vite@4.0.1)
+    version: 3.5.0(vite@4.0.5)
 
 packages:
 
@@ -1142,8 +1146,8 @@ packages:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
     dev: true
 
-  /@types/node-fetch@2.6.3:
-    resolution: {integrity: sha512-ETTL1mOEdq/sxUtgtOhKjyB2Irra4cjxksvcMUR5Zr4n+PxVhsCD9WS46oPbHL3et9Zde7CNRr+WUNlcHvsX+w==}
+  /@types/node-fetch@2.6.4:
+    resolution: {integrity: sha512-1ZX9fcN4Rvkvgv4E6PAY5WXUFWFcRWxZa3EW83UjycOB9ljJCedb2CupIP4RZMEwF/M3eTcCihbBRgwtGbg5Rg==}
     dependencies:
       '@types/node': 18.15.11
       form-data: 3.0.1
@@ -4586,7 +4590,7 @@ packages:
       vfile-message: 3.1.4
     dev: true
 
-  /vite-tsconfig-paths@3.5.0(vite@4.0.1):
+  /vite-tsconfig-paths@3.5.0(vite@4.0.5):
     resolution: {integrity: sha512-NKIubr7gXgh/3uniQaOytSg+aKWPrjquP6anAy+zCWEn6h9fB8z2/qdlfQrTgZWaXJ2pHVlllrSdRZltHn9P4g==}
     peerDependencies:
       vite: '>2.0.0-0'
@@ -4595,13 +4599,13 @@ packages:
       globrex: 0.1.2
       recrawl-sync: 2.2.3
       tsconfig-paths: 4.2.0
-      vite: 4.0.1(@types/node@18.15.11)(sass@1.61.0)
+      vite: 4.0.5(@types/node@18.15.11)(sass@1.61.0)
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite@4.0.1(@types/node@18.15.11)(sass@1.61.0):
-    resolution: {integrity: sha512-kZQPzbDau35iWOhy3CpkrRC7It+HIHtulAzBhMqzGHKRf/4+vmh8rPDDdv98SWQrFWo6//3ozwsRmwQIPZsK9g==}
+  /vite@4.0.5(@types/node@18.15.11)(sass@1.61.0):
+    resolution: {integrity: sha512-7m87RC+caiAxG+8j3jObveRLqaWA/neAdCat6JAZwMkSWqFHOvg8MYe5fAQxVBRAuKAQ1S6XDh3CBQuLNbY33w==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
